@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <textarea id="amountInput" placeholder="Введите число..."></textarea>
+    </div> 
+    
+    <div id="results" class="result">
+        <div class="currency-box">
+            <div class="currency-value" >
+                <img src="dollar.webp" alt="Dollar Icon">
+                <span id="dollarValue" class="result-text"></span>
+            </div>
+        </div>
+
+        <div class="currency-box">
+            <div class="currency-value" >
+                <img src="euro.webp" alt="Euro Icon">
+                <span id="euroValue" class="result-text"></span>
+            </div>
+        </div>
+
+        <div class="currency-box">
+            <div class="currency-value">
+                <img src="yuan.webp" alt="Yuan Icon">
+                <span id="yuanValue" class="result-text"></span>
+            </div>
+        </div>    
+    </div>       
+
+    <script src="app.js"></script>
+</body>
+</html>
+
